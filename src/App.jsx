@@ -1,16 +1,17 @@
-import { useState } from "react";
-
-import "./App.css";
-import Signingup from "./Signingup";
+import React from 'react';
+import UserProfile from './UserProfile.jsx';
+import FriendSearch from './FriendSearch.jsx';
+import './App.css';
 
 function App() {
-
-
   return (
-    <div>
-      <Signingup/>
+    <div className="App" id= "root">
+      Chukwuka
+      <UserProfile />
+      <FriendSearch />
     </div>
   );
+
 }
 
 export default App;
